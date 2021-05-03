@@ -21,7 +21,7 @@ Author: 赵文浩 23020201153860 (计算机科学系)
 
   以下代码分别展示了LAMBDA各个模块和主函数，如表2-1~表2-5所示。
 
-  *P.S.* *完整代码见与本报告一同提交的工程文件**P2-Assignment*
+  *P.S.* *完整代码见与本报告一同提交的工程文件P2-Assignment*
 
 <center>表2-1 Big Data &Model</center>
 
@@ -90,6 +90,7 @@ if __name__ == '__main__':
     test_index = np.random.randint(0, len(label_test))
     label_predict = ml.model_test(sample=test_data[test_index])
     print('--->> {0}; ideal label: {1}; predict label: {2}'.format(label_test[test_index] == label_predict, label_test[test_index], label_predict))
+```
 
 ## III. Proof Task
 
