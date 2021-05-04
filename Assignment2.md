@@ -26,7 +26,7 @@ Author: 赵文浩 23020201153860 (计算机科学系)
 <center>表2-1 Big Data &Model</center>
 
 ```python
-	Big Data &Model
+?	Big Data &Model
     def __init__(self, train_set, test_set, train_label, test_label):
         # =========@BigData=========
         # 导入训练和测试数据
@@ -42,7 +42,7 @@ Author: 赵文浩 23020201153860 (计算机科学系)
 <center>表2-2 Loss Function</center>
 
 ```python
-	Loss Function
+?	Loss Function
     # =========@Loss=========
 # 损失函数，计算预测结果与实际标签的距离
 def loss_function(self):
@@ -53,7 +53,7 @@ def loss_function(self):
 <center>表2-3 Algorithm</center>
 
 ```python
-	Algorithm
+?	Algorithm
     # =========@Algorithm=========
     def update_model_params(self):
         # 更新模型参数
@@ -63,7 +63,7 @@ def loss_function(self):
 <center>表2-4 Application</center>
 
 ```python
-	Application
+?	Application
     # =========@Application=========
     # 模型应用，输出预测结果
     def model_test(self, sample):
@@ -74,7 +74,7 @@ def loss_function(self):
 <center>表2-5 Main Function</center>
 
 ```python
-	Main Function
+?	Main Function
 if __name__ == '__main__':
     # 加载训练和测试数据
     train_data, test_data, label_train, label_test = load_data()
@@ -96,11 +96,11 @@ if __name__ == '__main__':
 
 ### 3.1 Task Description
 
-​	证明：若  $$y =  + 1$$ 或者 $$y =  - 1$$  ，且样本个数相等，均为  $$n$$。则对于中心化后的数据，存在如下结论：
+?	证明：若  $$y =  + 1$$ 或者 $$y =  - 1$$  ，且样本个数相等，均为  $$n$$。则对于中心化后的数据，存在如下结论：
 
-​	①  $${\sum _1} + {\sum _2} \propto {X^T}X$$
+?	①  $${\sum _1} + {\sum _2} \propto {X^T}X$$
 
-​	②  $${\mu _1} - {\mu _2} \propto {X^T}y$$
+?	②  $${\mu _1} - {\mu _2} \propto {X^T}y$$
 
 ### 3.2 Proof for Conclusion 1
 

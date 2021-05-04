@@ -25,9 +25,9 @@ Author: 赵文浩 23020201153860 (计算机科学系)
 ### 2.1 Model
 
 考虑到模型的通用性，本次实验设计的多项式模型需要能支持不同阶数的模型，即模型的一般形式为：
-$$
-y\left( {x,w} \right) = {w_0} + {w_1}x + {w_2}{x^2} +  \cdots  + {w_M}{x^M} = \sum\limits_{j = 0}^M {{w_j}{x^j}} 
-$$
+
+![](https://latex.codecogs.com/svg.latex?y\left( {x,w} \right) = {w_0} + {w_1}x + {w_2}{x^2} +  \cdots  + {w_M}{x^M} = \sum\limits_{j = 0}^M {{w_j}{x^j}})
+
 因此需要设计的模型参数随样本点的数量而变化。
 
 ### 2.2 Loss
